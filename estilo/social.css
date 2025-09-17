@@ -17,10 +17,10 @@ a {
   display: block;
   background-color: red;
   padding: 20px;
-  text-align: center;
-  font-size: bold;
   text-decoration: none;
   color: white;
+  text-align: center;
+  font-size: bolder;
 }
 a:hover {
   background-color: black;

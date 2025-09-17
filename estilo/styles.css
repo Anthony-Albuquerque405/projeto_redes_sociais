@@ -45,12 +45,8 @@ iframe#tela {
   height: 471px;
 }
 
-section#redessociais {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+section#resssociais {
+  text-align: right;
 }
 
 section#redessociais img {
@@ -64,6 +60,6 @@ section#redessociais img {
 section#redessociais img:hover {
   border: 2px solid #ffffff;
   padding: 3px;
-  transition: all 0.3s ease;
+  transition: transform 0.3s, border 1s;
   cursor: pointer;
 }
